@@ -68,3 +68,14 @@ Werkzeug==3.0.6
 widgetsnbextension==4.0.13
 wrapt==1.17.2
 zipp==3.21.0
+pandas
+numpy
+matplotlib
+dash
+plotly
+python-can
+Flask
+open3d         # if you're using point cloud visualization
+opencv-python  # if you're using image/video processing
+firebase-admin # only if using Firebase for telemetry
+scikit-learn   # if you're doing classification or regression
