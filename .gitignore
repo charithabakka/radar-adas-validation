@@ -1,5 +1,3 @@
-radar_processing/data/raw/
-radar_processing/data/processed/
 *.bag
 *.csv
 *.h5
