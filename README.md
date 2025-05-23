@@ -1,15 +1,8 @@
 Aim: To Build a radar-based ADAS object validation system with simulated CAN messages and real-time dashboard telemetry.
 
-+------------------+       +----------------+       +---------------------+       +--------------------+
-| Radar Data Input |  -->  | Radar Processor|  -->  | CAN Bus Simulation  |  -->  | Cloud Telemetry    |
-| (.bag/.csv/etc)  |       | (Python + Viz) |       | (python-can or CANoe)|      | (Firebase/MQTT)    |
-+------------------+       +----------------+       +---------------------+       +--------------------+
-                                                                                    |
-                                                                                    v
-                                                                             +------------------+
-                                                                             |   Dashboard UI   |
-                                                                             | (Dash/Plotly)    |
-                                                                             +------------------+
+## System Architecture
+
+![System Diagram](system_diagram.png)
 
 
 This project aims to validate radar-based object detection using Python and ROS, simulate vehicle communication over CAN, and send critical ADAS data to a real-time dashboard. It demonstrates system integration skills relevant to automotive validation, embedded systems, and telematics engineering roles.
